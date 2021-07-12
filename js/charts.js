@@ -110,9 +110,9 @@ function buildCharts(sample) {
       text: bubblelabels,
       mode: "markers",
        marker: {
-         size: bubbleValues,
-         color: bubbleValues,
-         colorscale: "Portland" 
+         size: bubblevalues,
+         color: bubblevalues,
+         colorscale: "Blackbody" 
        }
     }];
 
