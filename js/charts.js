@@ -67,7 +67,7 @@ function buildCharts(sample) {
     // 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
 
     var ids = result.otu_ids;
-    var lablels = result.otu_labels.slice(0, 10).reverse();
+    var labels = result.otu_labels.slice(0, 10).reverse();
     var values = result.sample_values.slice(0, 10).reverse();
 
     // 7. Create the yticks for the bar chart.
