@@ -106,7 +106,7 @@ function buildCharts(sample) {
     var bubbleData = [{
       x: ids,
       y: bubValues,
-      text: bubLabels,
+      //text: bubLabels,
       mode: 'markers',
         marker: {
           size: values,
