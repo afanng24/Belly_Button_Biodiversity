@@ -112,7 +112,7 @@ function buildCharts(sample) {
        marker: {
          size: bubblevalues,
          color: bubblevalues,
-         colorscale: "Electric" 
+         colorscale: "Viridis" 
        }
     }];
 
